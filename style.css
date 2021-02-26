@@ -67,6 +67,26 @@
     font-weight:700;
 }
 
+/* Workingspace */
+.workingspace {
+    margin-top: 120px;
+}
+.workingspace h3 {
+    font-size: 53px;
+    font-family: 'Quicksand', sans-serif; 
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+.workingspace h3 span {
+    font-weight: 700;
+}
+.workingspace p {
+    font-size: 18px;
+    color: #acacac;
+    margin: 25px 0;
+}
+
 /* Utility */
 .tombol {
     text-transform: uppercase; 
@@ -98,5 +118,8 @@
     }
     .jumbotron .display-4 {
         font-size: 62px;
+    }
+    .workingspace h3 {
+        text-align: left;
     }
 }
